@@ -17,19 +17,19 @@ bot.on('message', msg=>{
     
  switch(args[0]){
         case 'sword':
-            const swordgif = new Attachment('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
+            const swordgif = Attachment('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
             msg.channel.send(swordgif);
         break;
         case 'happy':
-            const happygif = new Attachment('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+            const happygif = Attachment('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
         break;
         case 'what':
-            const whatgif = new Attachment('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
+            const whatgif = Attachment('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
             msg.channel.send(whatgif);
         break;
         case 'sad':
-            const sadgif = new Attachment('https://media3.giphy.com/media/ROF8OQvDmxytW/giphy.gif')
+            const sadgif = Attachment('https://media3.giphy.com/media/ROF8OQvDmxytW/giphy.gif')
             msg.channel.send(sadgif);
         break;
         case 'suffer':
