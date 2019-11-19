@@ -17,7 +17,7 @@ bot.on('message', msg=>{
     
  switch(args[0]){
         case 'sword':
-            const swordgif = new Attachment('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
+            const swordgif = ('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
             msg.channel.send(swordgif);
         break;
         case 'happy':
