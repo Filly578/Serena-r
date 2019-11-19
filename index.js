@@ -17,19 +17,19 @@ bot.on('message', msg=>{
     
  switch(args[0]){
         case 'sword':
-            const swordgif = Attachment('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
+            const swordgif = new Attachment('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
             msg.channel.send(swordgif);
         break;
         case 'happy':
-            const happygif = Attachment('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+            const happygif = new Attachment('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
         break;
         case 'what':
-            const whatgif = Attachment('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
+            const whatgif = new Attachment('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
             msg.channel.send(whatgif);
         break;
         case 'sad':
-            const sadgif = Attachment('https://media3.giphy.com/media/ROF8OQvDmxytW/giphy.gif')
+            const sadgif = new Attachment('https://media3.giphy.com/media/ROF8OQvDmxytW/giphy.gif')
             msg.channel.send(sadgif);
         break;
         case 'suffer':
@@ -102,14 +102,14 @@ bot.on('message', msg=>{
         break;
         case 'notamused':
             const notamusedgif = new Attachment('https://i.pinimg.com/originals/f2/8f/1b/f28f1b8364a4cb4702cdcfdbbdb36b2f.gif')
-            msg.channel.send(notamused);
+            msg.channel.send(notamusedgif);
         break;
         case 'laugh':
             const laughgif = new Attachment('https://media1.giphy.com/media/4jo8C9xplrLG0/giphy.gif')
             msg.channel.send(laughgif);
         break;
         case 'creeper':
-            const creppergif = new Attachment('https://media3.giphy.com/media/qCFw3jLXkTAkM/giphy.gif')
+            const creepergif = new Attachment('https://media3.giphy.com/media/qCFw3jLXkTAkM/giphy.gif')
             msg.channel.send(creepergif);
         break;
         case 'pig':
