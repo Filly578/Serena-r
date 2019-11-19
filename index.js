@@ -21,11 +21,11 @@ bot.on('message', msg=>{
             msg.channel.send(swordgif);
         break;
         case 'happy':
-            const happygif = new Attachment('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+            const happygif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
         break;
         case 'what':
-            const whatgif = new Attachment('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
+            const whatgif = ('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
             msg.channel.send(whatgif);
         break;
         case 'sad':
