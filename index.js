@@ -68,6 +68,16 @@ bot.on('message', msg=>{
             const showoffgif = ('https://media1.giphy.com/media/3UGIfG44d7ToY/giphy.gif')
             msg.channel.send(showoffgif)
         break;
+        case 'user':
+         const user = new Discord.RichEmbed()
+         .settitle('User Information')
+         .addfield('Player Name', msg.author.username, true)
+         .addfield('Version', version, true)
+         .addfield('Current Server', msg.guild.name, true)
+         .setcolor(0xF1C40F)
+         .setThumbnail(msg.author.avatarURL)
+         msg.channel.sendEmbed(user);
+        break;
         case 'happy':
             const happygif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
