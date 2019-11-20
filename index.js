@@ -6,7 +6,7 @@ const token = 'NjQ1NjM5NjM3ODA0NjQ2NDAx.XdFo0Q.ATm6hPUVxMRzYYWW_ca9xP8VETw';
 
 const PREFIX = '!';
 
-var version = '1.0.1';
+var version = '1.0.2';
 
 bot.on('ready', () =>{
     console.log('This Bot is Online!')
@@ -19,6 +19,30 @@ bot.on('message', msg=>{
         case 'sword':
             const swordgif = ('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
             msg.channel.send(swordgif);
+        break;
+        case 'ok':
+            const okgif = ('https://media.giphy.com/media/l0K4k1O7RJSghST3a/giphy.gif')
+            msg.channel.send(okgif)
+        break;
+        case 'force':
+            const forcegif = ('https://media1.tenor.com/images/1374275cbd1274e54cf956bb65de3115/tenor.gif?itemid=10597313')
+            msg.channel.send(forcegif)
+        break;
+        case 'yes':
+            const yesgif = ('https://media.giphy.com/media/l1ugpiu9HmHlbimTm/giphy.gif')
+            msg.channel.send(yesgif)
+        break;
+        case 'no':
+            const nogif = ('https://media0.giphy.com/media/wYyTHMm50f4Dm/giphy.gif')
+            msg.channel.send(nogif)
+        break;
+        case 'unlearn':
+            const unlearngif = ('https://irp-cdn.multiscreensite.com/e895222d/dms3rep/multi/mobile/ezgif.com-gif-maker+%285%29.gif')
+            msg.channel.send(unlearngif)
+        break;
+        case 'order':
+            const ordergif = ('https://media.giphy.com/media/xTiIzrRyvrFijaEtY4/giphy.gif')
+            msg.channel.send(ordergif)
         break;
         case 'bobcrazy':
             const bobcrazygif = ('https://media.discordapp.net/attachments/604704499034226709/646778303763709963/image0.jpg?width=300&height=300')
