@@ -54,7 +54,7 @@ bot.on('message', msg=>{
         break;
         case 'crazyman':
             const crazymangif = ('https://media1.giphy.com/media/12s2Es7u6eFI64/giphy.gif')
-            msg.channel.send(crazygif)
+            msg.channel.send(crazymangif)
         break;
         case 'pass':
             const passgif = ('https://media1.tenor.com/images/fefe44b82b6e4b197cf5641206a63ee5/tenor.gif?itemid=8224531')
