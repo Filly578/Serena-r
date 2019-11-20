@@ -70,11 +70,11 @@ bot.on('message', msg=>{
         break;
         case 'user':
          const user = new Discord.RichEmbed()
-         .settitle('User Information')
-         .addfield('Player Name', msg.author.username, true)
-         .addfield('Version', version, true)
-         .addfield('Current Server', msg.guild.name, true)
-         .setcolor(0xF1C40F)
+         .setTitle('User Information')
+         .addField('Player Name', msg.author.username, true)
+         .addField('Version', version, true)
+         .addField('Current Server', msg.guild.name, true)
+         .setColor(0xF1C40F)
          .setThumbnail(msg.author.avatarURL)
          msg.channel.sendEmbed(user);
         break;
