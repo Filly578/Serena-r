@@ -20,6 +20,9 @@ bot.on('message', msg=>{
             const swordgif = ('https://media3.giphy.com/media/dv63Zr3IjzRq8/source.gif')
             msg.channel.send(swordgif);
         break;
+        case 'bobcrazy':
+            const bobcrazygif = ('https://media.discordapp.net/attachments/604704499034226709/646778303763709963/image0.jpg?width=300&height=300')
+            msg.channel.send(bobcrazygif)
         case 'happy':
             const happygif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
