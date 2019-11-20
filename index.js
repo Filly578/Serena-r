@@ -24,6 +24,26 @@ bot.on('message', msg=>{
             const bobcrazygif = ('https://media.discordapp.net/attachments/604704499034226709/646778303763709963/image0.jpg?width=300&height=300')
             msg.channel.send(bobcrazygif)
         break;
+        case 'crazy':
+            const crazygif = ('https://media3.giphy.com/media/3oxRmGXbquXKz6DNPq/giphy.gif')
+            msg.channel.send(crazygif)
+        break;
+        case 'crazyman':
+            const crazymangif = ('https://media1.giphy.com/media/12s2Es7u6eFI64/giphy.gif')
+            msg.channel.send(crazygif)
+        break;
+        case 'pass':
+            const passgif = ('https://media1.tenor.com/images/fefe44b82b6e4b197cf5641206a63ee5/tenor.gif?itemid=8224531')
+            msg.channel.send(passgif)
+        break;
+        case 'done':
+            const donegif = ('https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif')
+            msg.channel.send(donegif)
+        break;
+        case 'showoff':
+            const showoffgif = ('https://media1.giphy.com/media/3UGIfG44d7ToY/giphy.gif')
+            msg.channel.send(showoffgif)
+        break;
         case 'happy':
             const happygif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
