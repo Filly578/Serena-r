@@ -48,13 +48,81 @@ bot.on('message', msg=>{
             const bobcrazygif = ('https://media.discordapp.net/attachments/604704499034226709/646778303763709963/image0.jpg?width=300&height=300')
             msg.channel.send(bobcrazygif)
         break;
+        case 'dab':
+            const dabgif = ('https://media1.tenor.com/images/9b2147e6ad5a8c7f0ae0f39d37230a56/tenor.gif?itemid=9672617')
+            msg.channel.send(dabgif)
+        break;
         case 'crazy':
             const crazygif = ('https://media3.giphy.com/media/3oxRmGXbquXKz6DNPq/giphy.gif')
             msg.channel.send(crazygif)
         break;
+        case 'bestdab':
+            const bestdabgif = ('https://media0.giphy.com/media/3oEjI7M0cOXG0j4HWU/giphy.gif')
+            msg.channel.send(bestdabgif)
+        break;
+        case 'bob':
+            const bobgif = ('https://media2.giphy.com/media/3oEjHHALyoj9iPfoTm/giphy.gif')
+            msg.channel.send(bobgif)
+        break;
+        case 'dance':
+            const dancegif = ('https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5095868')
+            msg.channel.send(dancegif)
+        break;
+        case 'noodle':
+            const noodlegif = ('https://media.giphy.com/media/1zRdamA0f9ifJkfEGF/giphy.gif')
+            msg.channel.send(noodlegif)
+        break;
+        case 'chocolate':
+            const chocolategif = ('https://xceed.me/blog/wp-content/uploads/2017/09/giphy-6.gif')
+            msg.channel.send(chocolategif)
+        break;
+        case 'rainbow':
+            const rainbowgif = ('https://www.thisiscolossal.com/wp-content/uploads/2018/08/Isopoly_01.gif')
+            msg.channel.send(rainbowgif)
+        break;
+        case 'hobo':
+            const hobogif = ('https://media2.giphy.com/media/xUOxeWgnyv0bXc9EDm/giphy.gif')
+            msg.channel.send(hobogif)
+        break;
+        case 'dm':
+            const dmgif = ('https://media1.tenor.com/images/685f9f2114613205ba5e82b70cb72cef/tenor.gif?itemid=7610838')
+            msg.channel.send(dmgif)
+        break;
+        case 'attack':
+            const attackgif = ('https://media.giphy.com/media/3oEdv3aU4kWJnCYW52/giphy.gif')
+            msg.channel.send(attackgif)
+        break;
+        case 'rogue':
+            const roguegif = ('https://media.giphy.com/media/1JbD7ffHhKPjq/giphy.gif')
+            msg.channel.send(roguegif)
+        break;
+        case 'rum':
+            const rumgif = ('https://media0.giphy.com/media/m9qkPC4koiGNa/giphy.gif')
+            msg.channel.send(rumgif)
+        break;
+        case 'sparrow':
+            const sparrowgif = ('https://media3.giphy.com/media/TE3ZlXmfr5psI/giphy.gif')
+            msg.channel.send(sparrowgif)
+        break;
+        case 'lazy':
+            const lazygif = ('https://media1.giphy.com/media/MuJDYvbYKzMwONKvdO/giphy.gif')
+            msg.channel.send(lazygif)
+        break;
+        case 'coffee':
+            const coffeegif = ('https://media1.giphy.com/media/687qS11pXwjCM/giphy.gif')
+            msg.channel.send(coffeegif)
+        break;
+        case 'monday':
+            const mondaygif = ('https://media3.giphy.com/media/3o6fJbwYFe3SmVVQ4M/giphy.gif')
+            msg.channel.send(mondaygif)
+        break;
+        case 'coolz':
+            const coolzgif = ('https://media3.giphy.com/media/4T5C71heypSItNAdXd/source.gif')
+            msg.channel.send(coolzgif)
+        break;
         case 'crazyman':
             const crazymangif = ('https://media1.giphy.com/media/12s2Es7u6eFI64/giphy.gif')
-            msg.channel.send(crazymangif)
+            msg.channel.send(crazygif)
         break;
         case 'pass':
             const passgif = ('https://media1.tenor.com/images/fefe44b82b6e4b197cf5641206a63ee5/tenor.gif?itemid=8224531')
