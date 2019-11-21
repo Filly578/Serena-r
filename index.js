@@ -150,6 +150,58 @@ bot.on('message', msg=>{
             const happygif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
         break;
+        case 'kylo':
+            const kylogif = ('https://media2.giphy.com/media/9E7kUhnT9eDok/giphy.gif')
+            msg.channel.send(kylogif)
+        break;
+        case 'impossible':
+            const impossiblegif = ('https://media.giphy.com/media/l3fZIF5A57lRuUBOg/giphy.gif')
+            msg.channel.send(impossiblegif)
+        break;
+        case 'forseen':
+            const forseengif = ('https://media1.giphy.com/media/B6Jr28VwfxUFa/giphy.gif')
+            msg.channel.send(forseengif)
+        break;
+        case 'yoda':
+            const yodagif = ('https://media1.giphy.com/media/SQgEr5ViRcXYs/giphy.gif')
+            msg.channel.send(yodagif)
+        break;
+        case 'porg':
+            const porggif = ('https://media3.giphy.com/media/3h2lUwrZKilQKbAK6f/source.gif')
+            msg.channel.send(porggif)
+        break;
+        case 'season':
+            const seasongif = ('https://media0.giphy.com/media/d2ZeeoOu8MHQFPQ4/source.gif')
+            msg.channel.send(seasongif)
+        break;
+        case 'under':
+            const undergif = ('https://media3.giphy.com/media/11cFgJK4tK4Jpu/giphy.gif')
+            msg.channel.send(undergif)
+        break;
+        case 'fall':
+            const fallgif = ('https://media1.giphy.com/media/r3knno4y8phhC/giphy.gif')
+            msg.channel.send(fallgif)
+        break;
+        case 'clone':
+            const clonegif = ('https://media.giphy.com/media/1lznA4FFhnyJiUYIip/giphy.gif')
+            msg.channel.send(clonegif)
+        break;
+        case 'owl':
+            const owlgif = ('https://media.giphy.com/media/3o6nUZMFasYD7yhbuo/giphy.gif')
+            msg.channel.send(owlgif)
+        break;
+        case 'tie':
+            const tiegif = ('https://media3.giphy.com/media/xTiTnzSGo70dLQYKv6/source.gif')
+            msg.channel.send(tiegif)
+        break;
+        case 'jango':
+            const jangogif = ('https://media.giphy.com/media/LXT3nVJ4sbWuI/giphy.gif')
+            msg.channel.send(jangogif)
+        break;
+        case 'fail':
+            const failgif = ('https://i.chzbgr.com/full/9031979008/hE8FF7F74/yoda-reaction-gif-that-is-why-you-fail-star-wars')
+            msg.channel.send(failgif)
+        break;
         case 'what':
             const whatgif = ('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
             msg.channel.send(whatgif);
