@@ -64,6 +64,14 @@ bot.on('message', msg=>{
             const nukegif = ('https://media3.giphy.com/media/XevXoNu5WZxe0/giphy.gif')
             msg.channel.send(nukegif)
         break;
+        case 'china':
+            const chinagif = ('https://media.giphy.com/media/83ZxdvcXLSsSs/giphy.gif')
+            msg.channel.send(chinagif)
+        break;
+        case 'chinacat':
+            const chinacatgif = ('https://media1.tenor.com/images/89006c54d64f3a174b151746eb04421b/tenor.gif?itemid=5416957')
+            msg.channel.send(chinacatgif)
+        break;
         case 'nuke1':
             const nuke1 = ('https://media0.giphy.com/media/GzVvGQYhFZIAg/giphy.gif')
             msg.channel.send(nuke1)
