@@ -60,6 +60,26 @@ bot.on('message', msg=>{
             const bestdabgif = ('https://media0.giphy.com/media/3oEjI7M0cOXG0j4HWU/giphy.gif')
             msg.channel.send(bestdabgif)
         break;
+        case 'nuke':
+            const nukegif = ('https://media3.giphy.com/media/XevXoNu5WZxe0/giphy.gif')
+            msg.channel.send(nukegif)
+        break;
+        case 'nuke1':
+            const nuke1 = ('https://media0.giphy.com/media/GzVvGQYhFZIAg/giphy.gif')
+            msg.channel.send(nuke1)
+        break;
+        case 'waffle':
+            const wafflegif = ('https://media1.giphy.com/media/cRBRQf8syLUyY/giphy.gif')
+            msg.channel.send(wafflegif)
+        break;
+        case 'watermelon':
+            const watermelongif = ('https://media0.giphy.com/media/11Ej01Grffnr20/giphy.gif')
+            msg.channel.send(watermelongif)
+        break;
+        case 'korea':
+            const koreagif = ('https://media1.giphy.com/media/l3vR1tookIhM8nZJu/giphy.gif')
+            msg.channel.send(koreagif)
+        break;
         case 'bob':
             const bobgif = ('https://media2.giphy.com/media/3oEjHHALyoj9iPfoTm/giphy.gif')
             msg.channel.send(bobgif)
